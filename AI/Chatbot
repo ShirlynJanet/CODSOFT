@@ -1,0 +1,45 @@
+#TASK 1 : CHATBOT WITH RULE-BASED RESPONSES
+import re
+import random
+
+def respond(input_text):
+    patterns = [
+    (r"hello|hi|hey", ["Hello!", "Hi there!", "Heyy!"]),
+    (r"how are you", ["I'm doing well, thank you!", "I'm good. How about you?"]),
+    (r"what is your name?", ["I'm a chatbot.", "You can call me Chatbot."]),
+    (r"bye|goodbye", ["Goodbye!", "See you later!", "Bye!"]),
+    (r"tell me a joke|tell me another joke", [
+        "Why did the computer go to therapy? It had too many bytes of emotional baggage!",
+        "How does a programmer open a jar? They use Java!",
+        "Why do programmers prefer dark mode? Because light attracts bugs!",
+        "I told my wife she was drawing her eyebrows too high. She looked surprised!",
+        "What's a computer's favorite snack? Microchips!",
+        "Why did the math book look sad? Because it had too many problems.",
+    ]),
+    (r"thanks|thank you", ["You're welcome!", "No problem!", "Happy to help."]),
+    (r"how old are you?", ["I don't have an age. I'm just a program.", "I exist in the digital realm, so age doesn't apply to me."]),
+    (r"tell me about yourself", ["I'm a chatbot designed to assist with various questions.", "I'm here to help you with information and tasks.","I'm a virtual assistant designed to provide information and answer questions."]),
+    (r"what can you do?", ["I can provide information, answer questions, and engage in conversation.", "Feel free to ask me anything!"]),
+     (r"weather|forecast", ["I'm sorry, I don't have real-time weather information. You can check a weather website for the latest updates."]),
+    (r"favorite color|what is your favourite colour?", ["I don't have a favorite color. I exist in the world of code!"]),
+    (r"help", ["I'm here to help! Feel free to ask me any questions or chat with me about various topics."]),
+    (r"your future|predict the future", ["I'm afraid I can't predict the future. I'm just a program designed to provide information and assistance."]),
+    (r"I'm doing good|I'm fine|I'm good",["That's great to hear! How can I help you?,That's good to hear! How can I help you?"]),
+    (r"ok|okay",["Is there anything that you want to ask me?"]),
+    (r"you're funny", ["Glad I could bring a smile to your face!"]),
+    (r"tell me a fact", ["Did you know that honey never spoils? Archaeologists have found pots of honey in ancient Egyptian tombs that are over 3,000 years old and still perfectly edible!"]),
+    (r"what's up|sup", ["Nothing much.", "Just here, ready to chat!"]),
+    (r"who are you?", ["I'm a friendly chatbot here to assist you."])
+    ]
+    for pattern, responses in patterns:
+        if re.search(pattern, input_text, re.IGNORECASE):
+            return random.choice(responses)
+    return "I'm sorry, I don't understand that."
+while True:
+    user_input = input("You: ")
+    if user_input.lower() in ["exit", "quit", "bye", "goodbye"]:
+        print("Chatbot: Goodbye! Have a nice day!")
+        break
+    else:
+        response = respond(user_input)
+        print("Chatbot:", response)
