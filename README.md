@@ -3,6 +3,7 @@ AI Internship:
 
 TASK 1:
 This code implements a simple rule-based chatbot in Python. The chatbot responds to user input based on predefined patterns using regular expressions. It covers various topics such as greetings, jokes, information about itself, and more. The program continues running until the user inputs an exit command (e.g., "exit" or "bye"). The chatbot provides responses according to the matched patterns or a default response if no patterns are found.
+
 ![image](https://github.com/ShirlynJanet/CodSoft-Tasks/assets/140640492/6a4798e5-5ebf-471a-93c6-0aebec34bf68)
 ![image](https://github.com/ShirlynJanet/CodSoft-Tasks/assets/140640492/822e02cf-37c5-4f9d-9b13-45afc9c399b8)
 
@@ -29,7 +30,8 @@ Declares the winner or a tie when the game ends.
 Exiting the game is initiated by choosing option 3.
 Users are prompted to provide feedback before the program terminates.
 
-Throughout the game, the program guides the user through making moves, handles invalid inputs, and provides a clear display of the game state.
+Throughout the game, the program guides the user through making moves, handles invalid inputs, and provides a clear display of the game state
+
 ![Screenshot (11)](https://github.com/ShirlynJanet/CodSoft-Tasks/assets/140640492/cdd447e3-2239-47cf-91a9-4e644f02bc84)
 ![Screenshot (12)](https://github.com/ShirlynJanet/CodSoft-Tasks/assets/140640492/6664492b-2849-46e9-b147-347e7626f6f9)
 ![Screenshot (13)](https://github.com/ShirlynJanet/CodSoft-Tasks/assets/140640492/27ab0a4e-d9ac-4224-9f1d-8653745c2ed3)
