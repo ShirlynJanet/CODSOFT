@@ -1,7 +1,7 @@
 #TASK 1 : CHATBOT WITH RULE-BASED RESPONSES 
 import re
 import random
-
+ 
 def respond(input_text):
     patterns = [
     (r"hello|hi|hey", ["Hello!", "Hi there!", "Heyy!"]),
