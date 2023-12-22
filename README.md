@@ -44,6 +44,17 @@ Throughout the game, the program guides the user through making moves, handles i
 ![Screenshot (20)](https://github.com/ShirlynJanet/CodSoft-Tasks/assets/140640492/759620bb-08ac-47ce-802b-530448df5b81)
 
 
+TASK 3 (Task 4): 
+This Python program implements a recommendation system across three domains: movies, books, and products. Users input their preferred genre or category, and the program utilizes TF-IDF vectorization and cosine similarity to provide personalized recommendations. The system offers top recommendations and additional suggestions based on user preferences.
+
+![Screenshot (36)](https://github.com/ShirlynJanet/CodSoft-Tasks/assets/140640492/b0b3dbfd-a33e-45a3-ba14-54c30a27df8d)
+![Screenshot (37)](https://github.com/ShirlynJanet/CodSoft-Tasks/assets/140640492/283de690-eb08-4acd-9729-458261e9aa3b)
+![Screenshot (38)](https://github.com/ShirlynJanet/CodSoft-Tasks/assets/140640492/837d3955-215a-4aae-92cb-5d8269382461)
+![Screenshot (39)](https://github.com/ShirlynJanet/CodSoft-Tasks/assets/140640492/1fa9857f-72f1-4e25-82e8-302ef46ea279)
+
+THANK YOU!!
+
+
 
 
 
